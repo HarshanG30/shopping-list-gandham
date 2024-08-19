@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black ;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 500px;
+    margin: 60px auto;
+    padding: 30px;
+    background-color: #000000;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+form {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+#item-input {
+    flex: 1;
+    padding: 15px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+
+#add-button {
+    padding: 15px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#add-button i {
+    margin-right: 5px;
+}
+
+#search-bar {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 25px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+
+#shopping-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#shopping-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #007bff;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    color: #ffffff;
+    border: 1px solid #000000;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    transition: background-color 0.3s;
+}
+
+#shopping-list li:hover {
+    background-color: #0056b3;
+}
+
+.btn-delete {
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn-clear {
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 25px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-clear:hover {
+    background-color: #0056b3;
+}
